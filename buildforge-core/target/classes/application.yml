@@ -1,0 +1,17 @@
+app:
+  message: Message has been sent Successfully..
+profile: locale
+spring:
+  data:
+    mongodb:
+     uri: mongodb+srv://BuildForge:NTrJEZtxqPtvjjFO@buildforge.34dlskw.mongodb.net/?retryWrites=true&w=majority
+     database: BuildForge 
+     
+  rabbitmq:
+    host: localhost
+    password: guest
+    port: 5672
+    username: guest
+    exchange: user.exchange
+    queue: user.queue
+    routingkey: user.routingkey
